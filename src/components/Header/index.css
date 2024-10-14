@@ -1,1 +1,33 @@
-/* Write your CSS code here */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  /*padding: 30px 80px 30px 80px;*/
+}
+
+.nav-items-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-items {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 30px;
+  cursor: default;
+}
+
+.logout-btn {
+  border: 0px solid;
+  background-color: #0967d2;
+  border-radius: 8px;
+  padding: 10px 24px 10px 24px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 30px;
+}
